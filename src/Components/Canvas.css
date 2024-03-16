@@ -1,0 +1,36 @@
+
+
+.App{
+    display: flex;
+    flex-direction: column;
+}
+
+.App h1{
+    color: rgb(255, 174, 174);
+    margin: 5% 5%;
+}
+
+.app-btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+
+.app-btn button{
+    width: 9vw;
+    border: none;
+    margin: 2px;
+    border-radius: 3px;
+    color: rgb(253, 157, 157);
+    background-color: white;
+    border: 2px solid rgb(255, 200, 200);
+}
+
+.app-btn button:hover{
+    background-color: rgb(253, 157, 157);
+    color: white;
+}
+
+.sample-canvas{
+    margin: 10px 30px 50px 30px;
+}
